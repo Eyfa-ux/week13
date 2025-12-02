@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SONGKET</title>
+	<style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Serif+KR:wght@200..900&display=swap')
+    
+   body{ 
+		  font-family: "Noto Sans KR", serif;
+		  font-weight: 500;
+		  font-size: 18px;
+		  line-height: 1.6;
+		  word-break: keep-all;
+		}
+	body, h1, h2, h3, h4, h5, h6, p, ol, ul{
+		margin: 0; padding: 0;}
+		section{padding: 100px 0 px;}
+		h2{margin: 50px 0px 20px; font-size: 3rem; line-height: 1.2}
+		p{margin: 20px 0px;}
+		.wrap{width: 800px; margin: auto; position:relative;}
+		.bg-white{background: white;}
+		.bg-black{background: black; padding: 0;}
+		.white{color: white;}	
+	img {width: 100%;}
+	span{width: 400px; height: 200px; background: grey;}
+	em{font-style: normal; font-weight: bold; color: white;}
+	strong {background: yellow; text-align: center;}
+	h1, h2, h3, h4, h5, h6 {font-size: 30px;}
+	.flex{display: flex; justify-content: space-between;}
+	ul{list-style: none;}
+	ul li a{text-decoration: none; display:block; padding:8px 12px; color:white;}
+	ul li a:hover{background: white; color: black; transition: all 1s;}
+	.logo h1{color: black; font-size: 2rem; cursor: pointer;}
+	.bg-cover{background: url(tanjank.jpg);
+			 background-size: cover; background-size: 100%;}
+	.bg-malay{background: url(page 4.jpg);
+			 background-size: cover; background-position: center;}
+	.bg-last{background: url(page last.jpg);
+			 background-size: cover; background-position: center;}
+	header{padding: 200px 0px}
+	header h1{font-size: 5rem; color: white; animation: glow 4s infinite alternate cubic-bezier(0.72, 0.05, 0.18, 0.99);}
+	header p{font-size: 3rem; color: white; font-weight: bold;}
+	video{width: 100%; position: relative;}
+	.line{border-top-color: white;}
+	.center-spacing{text-align: center;}
+	.left-spacing{margin: 100px; padding-left: 20px}
+	
+
+	/*css animation*/
+   @keyframes glow{
+   	from{text-shadow: 0px 0px 0px white;}
+   	to{text-shadow: 0px 0px 13px white;}
+   }
+    .big{font-size: 10rem; color: white; position: absolute; left: -350px; top: 424px}
+    .intro{display: flex; background: url(page1.jpg) ;background-size: cover; background-attachment: ; padding: 350px 0px;}
+    .pattern{background:url(page3.jpg); background-size: cover; padding: 2257px 0px}
+    .baju{background:url(page5.jpg); background-size: contain; padding: 1820px 0px; margin: 0px;padding-right: 50px; height:100%;}
+
+		
+	</style>
+</head>
+<body>
+      <nav style="background-color: #FFED03; border-bottom: black; color: black;">
+         <div class="wrap flex">
+      <div class="logo">
+      	<h1>LOGO</h1>
+      </div>
+	      <ul class="flex" style="color: black">
+	      	  <li><a href="#">HOME</a></li>
+	      	  <li><a href="#">MENU</a></li>
+	      	  <li><a href="#">ABOUT</a></li>
+	      </ul>
+	    </nav> 
+      </div>
+      <header class="bg-cover">
+        <div class="wrap">
+        	<h1 style="color: black;">THE LANGUAGE OF SONGKET</h1>
+        	<p style="color:black;">Each Weave Embodies The Soul of Malay Tradition and Craftsmanship</p>
+        	<div>
+        	<ul class="logo">
+	      	  <li><a href="#">EXPLORE</a></li>
+	      	</ul>
+	      </div>
+        </div>
+      </header>
+      <section class="intro">
+	      	<div class="wrap box">
+	      	<h2 class="white left-spacing">What is Songket?</h2>
+	      	<p class="white left-spacing">Songket is a traditional Malaysian handwoven fabric made from silk or cotton, patterned with gold or silver threads. Derived from the Malay word “sungkit” meaning “to hook”, the name reflects its weaving method of hooking and slipping metallic threads into the fabric.</p>
+	      </div>
+      </section>
+      <section>
+      	<video src="weave.mp4" autoplay muted loop></video>
+      </section>
+      <section class="long pattern">
+      	<div>
+      		<h1 style="color: white;">STAR WITH LARGE CHEST MOTIF</h1>
+      		<p style="color: white;">This motif is interpreted as a symbol of well-being and peace in living together. This symbol is also associated with hope and balance, and reflects good character, polite words, and peaceful life in a community.</p>
+      	</div>
+      	<div>
+      		<h1 style="color: white;">BOUQUET MOTIF</h1>
+      		<p style="color: white;">The motif symbolizes love, purity, and refinement of character, as well as friendship and brotherhood. This motif is from flora such as flowers, often used to represent beauty, happiness, and fertility.
+      		</p>
+      	</div>
+      	<div>
+      		<h1 style="color: white;">SIDE-BY-SIDE BOUQUET MOTIF</h1>
+      		<p style="color: white;">This motif refers to the hope of having an equal and corresponding position financially and spiritually, as well as symbolizing peace and success. This motif is usually found in Malay carving and weaving as a philosophy that teaches equality and harmony.</p>
+      	</div>
+      </section>
+      <section style="background: url(malay.jpg); background-size: cover; padding: 350px 0px;">
+      	<div>
+	      	<h5>MALAY<br>HERITAGE</h5>
+	      </div>
+      </section>
+      <section class="baju">
+      	<div>
+      		<h6></h6>
+      	</div>
+      </section>
+      <section class="bg-black" style="padding: 350px 0px;">
+      </section>
+      <footer style="background-color: black;">
+      	<nav>
+      	<div style="position: relative;">
+         		<div class="container" style="line-height: 1.5;color: white;">
+         			<div class="container">
+      			<h1 style="margin-bottom: 10p ;">ABOUT US</h1>
+      			<p style="">Home</p>
+      			<p style="">Careers</p>
+      			<p style="">Term Policy</p>
+      			<p style="">Privacy Policy</p>
+      			<div style="line-height: 1.5; white">
+      			<h2 style="margin-bottom: 10p ;">CONTENT</h2>
+      			<p style="">Songket</p>
+      			<p style="">Weave</p>
+      			<p style="">Pattern</p>
+      			<div style="line-height: 1.5; color: white;">
+      			<h3 style="margin-bottom: 10p ;">CONTACT</h3>
+      			<p style="">eyfa1312@gmail.com</p>
+      			<h4 style="margin-bottom: 10p ;">DESIGN</h4>
+      			<p style="">25100962<br>다리엘라</p>
+      	</div>
+      </nav>
+      	<div class="black">
+      	   <p style="text-align: center; position: relative; color: white; margin: 0; border-top-color: white;">Copyright © 2025 다리엘라. All rights reserved.</p>
+      	</div>
+      </footer>
+</body>
+</html>
